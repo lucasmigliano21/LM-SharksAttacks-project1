@@ -5,6 +5,7 @@ __pycache__
 *.idea
 *.xml
 *.iml
+*.csv
 *.weights
 *.log
 /*.log
