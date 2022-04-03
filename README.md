@@ -1,6 +1,11 @@
 # Project 1: Global Sharks Attacks - Project 1
 
 In order to start cleaning the data set, first we should import the attacks.csv file.
-Once we execute .head(), we notice that columns' names have issues with 'spaces'. So we need to correct this problem by using .replace (regex).
-Moreover, with some columns we need to use .rename() and another .replace() to correct typo problems.
+Once we execute .head(), we notice that columns' names have issues with 'spaces' and another characters. So we need to correct this problem by using .replace (regex), and also with .rename .
 Aftwerwards we check the number of nulls per columns. There are a lot! The simplest option is to replace all null values for 'unknown' values. For all the columns that do not have numbers, we can execute a .fillna('unknown') to replace the null values. We check this by executing code that shows only columns with null values, and if correct, we can continue.
+On the other side, we can change the data type of original_order column from float64 to int64, just to show we can.
+The we can do the same with the last columns, to fill all the blank spaces with "unknown".
+Then we learn that Date column has dates with another characters, so we can use a .map() function combined with lambda to remove all the dates that have a different length (10). 
+Finally export the csv, checking that we used more than 5 types of cleaning options, also that the number of columns is > 20K.
+
+We can now focus on the bonus questions. USA is the country where more attacks were registered; 2015 was the year with most attacks registered globally; in comparison, sharks tend to attack 5x to men than women; finally more than twice of the attacks were not fatal.
