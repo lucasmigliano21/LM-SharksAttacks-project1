@@ -1,4 +1,5 @@
-https://static.scientificamerican.com/sciam/cache/file/44782A7E-8025-4A62-833DC6E4CF9A42CB_source.jpg?w=590&h=800&894CEEE1-0BE8-4122-A713699037806AFF
+![image](https://{https://static.scientificamerican.com/sciam/cache/file/44782A7E-8025-4A62-833DC6E4CF9A42CB_source.jpg?w=590&h=800&894CEEE1-0BE8-4122-A713699037806AFF})
+
 # Project 1: Global Sharks Attacks - Project 1
 
 In order to start cleaning the data set, first we should import the attacks.csv file.
